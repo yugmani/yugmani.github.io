@@ -1,283 +1,473 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge' chrome="1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" chrome="1" />
     <title>Yug Gurung:Personal Site</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <meta name="handheldFriendly" content="true">
-    <script src="https://kit.fontawesome.com/ca33be108d.js" crossorigin="anonymous"></script>
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
-   
-</head>
-<body>
- 
-    <!---- HEADER SECTION -->
-    <header>
-        <div class="container">
-                <div id="selfname">
-                    
-                </div>
-                <div class="menu">
-                        <a href="#about" title="About Me" class="bar">About</a>
-                        <a href="#skills" title="Skills that I have" class="bar">SKILLS</a>
-                        <a href="#worked" title="My Work Experience" class="bar">EXPERIENCE</a>
-                        <a href="#portfolio" title="Site to Portfolio" class="bar">Portfolio</a>
-                        <a href="#degrees" title="Certification Information" class="bar">CERTIFICATIONS</a>
-                        <a href="#contact" title="Contact Information" >Contact</a>  
-                </div>
-                
-        </div>
-        <!-- <div class="container">
-            <div class="social_medias">
-                <a href="https://www.linkedin.com/in/yugmani"><i class="fab fa-linkedin-in" ></i></a>
-                <a href="https://github.com/yugmani/"><i class="fab fa-github" ></i></a>
-                <a class="fab fa-twitter"></a>
-                <a class="fab fa-facebook-f"></a>
-            </div>
-    </div> -->
-        
-
-    </header>
-
-    <!---- INTRODUCTION SECTION -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="handheldFriendly" content="true" />
+    <script
+      src="https://kit.fontawesome.com/ca33be108d.js"
+      crossorigin="anonymous"
+    ></script>
     
-        <div class = "headline">
-            <h4>Hi, I am</h4>
-            <h1>Yug Gurung,</h1>
-            <h1>Full Stack Web Developer.</h1>
-            <h4>I help people, organizations and companies in building high-quality websites and applications.</h4>
-        </div>
-        
-<!---- ABOUT ME SECTION -->
-
-       <div id="about" class="headline">
-           <br>
-            <h1>About Me</h1>
-            
-            <div class="container">
-                <div id="profileImage">
-                    <img id="img" src="assets/images/yugselfiedited.jpg" alt="Photo of Yug Gurung">
-                </div>
-        
-                <div id="story">
-                    
-                    <h5>I have a passion of working in information technology. 
-                    Hard working and deep learning mostly through the self-learning and innovation have always been my way of gaining knowledge and skills. </h5>
-                    <h5> Being a student of mathematics and a teacher as well, I am strong in problem identification, solving problems with a logical strategies and organizing the solutions in a proper way. </h5>
-                   
-                </div>
-            </div>
-        </div>
-       
-<!---- SKILLS SECTION -->
-        
-        <div id="skills" class="headline">
-
-            <h1>Technologies That I Use</h1>
-            
-            <h4>These are some of the important technologies I've been working with recently:</h4>
-            
-            <div class="container"> 
-                <div id="front">
-                    <h5 class="fas fa-caret-right"> HTML5 & (S)CSS</h5>
-                    <h5 class="fas fa-caret-right"> Bootstrap</h5>
-                    <h5 class="fas fa-caret-right"> JavaScript (ES6+)</h5>
-                    <h5 class="fas fa-caret-right"> jQuery-Ajax</h5>
-                    <h5 class="fas fa-caret-right"> Node.js</h5>
-                </div>
-                <div id="back">
-                    <h5 class="fas fa-caret-right"> React</h5>
-                    <h5 class="fas fa-caret-right"> Express</h5>
-                    <h5 class="fas fa-caret-right"> mySql</h5>
-                    <h5 class="fas fa-caret-right"> MongoDB</h5>
-                    <h5 class="fas fa-caret-right"> Github</h5>
-                </div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&family=Pacifico&family=Trocchi&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/responsive.css"
+    />
     
+  </head>
+  <body>
+    <div class="container">
+      <div id="home-page">
+        <!---- HEADER SECTION -->
+        <div class="header">
+          <div class="menu">
+            <p class="bar"><a href="#home-page" title="home-page">HOME</a></p>
+            <p class="bar"><a href="#about" title="About Me">ABOUT</a></p>
+            <p class="bar">
+              <a href="#skills" title="Skills that I have">SKILLS</a>
+            </p>
+            <p class="bar">
+              <a href="#portfolio" title="Site to Portfolio">PORTFOLIO</a>
+            </p>
+            <p class="bar">
+              <a href="#degrees" title="Certification Information"
+                >EDUCATION</a
+              >
+            </p>
+            <p class="bar">
+              <a href="#worked" title="My Work Experience">EXPERIENCE</a>
+            </p>
+            <p class="bar"><a href="#contact" title="Contact Information">CONTACT</a></p>
+            <p class="toggle"><span class="bars"></span></p>
+          </div>
+          
+        </div>
+        <div class="resume_link"><a href="assets/images/YUG_GURUNG_Resume _Updated.pdf" download="portrait1">Download Resume <i class="fa fa-download" aria-hidden="true"></i></a></div>
+        <!---- INTRODUCTION SECTION -->
+
+        <div class="headline view-height-full flex-column">
+          
+          <h1>Yug Gurung</h1>
+          <h3>Full Stack Web Developer</h3>
+          <h4 class="my-statement">
+            I help people, organizations and companies<br> in building high-quality
+            websites and applications.
+          </h4>
+        </div>
+      </div>
+      <!---- ABOUT ME SECTION -->
+
+      <div id="about" class="headline view-height-full flex-column">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+
+        <div class="wrapper flex-row">
+          <div id="profile-image">
+            <img
+              id="my-img"
+              src="assets/images/yug_half.png"
+              alt="Photo of Yug Gurung"
+            />
+          </div>
+
+          <div id="story">
+            
+            <p>
+              Being a developer, I love solving problems with a logical
+              strategies and organizing the solutions in a proper way.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!---- SKILLS SECTION -->
+
+      <div id="skills" class="headline view-height-full flex-row">
+        <div class="section-title">
+          <h2>Technologies That <br />I Love to Use</h2>
+
+        </div>
+
+        <div class="wrapper flex-column">
+          <!-- <div class="row flex-row"> -->
+            <div class="card-skill">
+              <img src="./assets/images/1_lJ32Bl-lHWmNMUSiSq17gQ.png" alt="html_logo"
+              />
+              <div class="skill-set">
+              <h5>HTML5/CSS3</h5>
+              <div class="blank_col"></div>
+              </div>
             </div>
-       
-        </div>
-    
 
-    <!---- EXPERIENCE SECTION -->
-    <div id="worked" class="headline">
-
-        <h1>Here I've Worked</h1>
-        
-        <h4>These are the places where I worked and that are relevant to web development:</h4>
-        
-        <div class="container"> 
-                <table>
-                    <tr >
-                        <td style = "border-bottom:1px solid rgb(126, 122, 122);">
-                            <h6>Mathematics Teacher</h6>
-                            <p>2005 - 2012</p>
-                        </td>
-                        <td style = "border-bottom:1px solid rgb(126, 122, 122);">
-                            <div class="description">
-                                <h5>Mathematics Teacher in a middle school</h5>
-                                <h6>Kathmandu University High School, Dhulikhel, Nepal</h6>
-                                <p class="fas fa-caret-right"> Taught Algebra, Arithetic, Geometry and Trigonometry.</p>
-                                <p class="fas fa-caret-right"> Used problem solving skills and strategies. </p>
-                                <p class="fas fa-caret-right"> Developed lesson plans, maintained records and established communication with parents, students and school administration.</p>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h6>Computer Instructor</h6>
-                            <p>1996 - 2005</p>
-                        </td>
-                        <td>
-                            <div class="description">
-                                <h5>Computer Instructor in a middle school</h5>
-                                <h6>British Gurkha Academy, Kathmandu, Nepal</h6>
-                                <h6>Aashiyaan Int'l School, Kathmandu, Nepal</h6>
-                                <h6>Martyrs' Memorial H.S. School, Kathmandu, Nepal</h6>
-                                <p class="fas fa-caret-right"> Basic computer operations in Windows</p>
-                                <p class="fas fa-caret-right"> MS-Office (Word and Excel)</p>
-                                <p class="fas fa-caret-right"> QBasic Programming Language</p>
-                            </div>
-                        </td>
-                    </tr>
-
-                </table>
-                    
-        </div>
-
-    </div>
-
-        <!---- PORTFOLIO SECTION -->
-
-        <div id="portfolio" class="headline">
-            <h1> My Great Achievements </h1>
-            <h4> These are something that I built.</h4>
+            <div class="card-skill">
+              <img src="./assets/images/js.jpg" alt="javascript logo" />
+              <div class="skill-set">
+              <h5>JavaScript</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+            <div class="card-skill">
+              <img src="./assets/images/348405_jquery.png" alt="jquery logo" />
+              <div class="skill-set">
+              <h5>jQuery</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+            <div class="card-skill">
+              <img src="./assets/images/node-js.png" alt="Nodejs logo" />
               
-            <div class="container">
-   
-                    <div class="card_Chicketo">
-                        <h5>PROJECT 1</h5>
-                        <h6>ART GALLERY</h6>
-                        
-                        <a href="https://yugmani.github.io/Project_Gallery/"><img src="assets/images/art0.jpeg" style="width:150px; height:150px;"></a>
-                        <p> Team : Azi-Coders </p>
-                        <p> Technologies: HTML, CSS, Javascript </p>
-                        
-                    </div>
-                    <div class="card_Chicketo">
-                        <h5>ASSIGNMENT</h5>
-                        <h6>WEATHER DASHBOARD</h6>
-                        <a href="https://yugmani.github.io/weatherDashboard/"><img src="assets/images/cloudy.png"></a>
-                        <p> Individual Task </p>
-                        <p> Technologies: HTML, CSS, Javascript, Weather Api </p>
-                    </div>
-                        
-                    <div class="card_Chicketo">
-                        <h5>ASSIGNMENT</h5>
-                        <h6>PROFILE GENERATOR</h6>
-                        <a href="https://yugmani.github.io/gitprofile/"><img src="assets/images/github-512.png" ></a>
-                        <p> Individual Task </p>
-                        <p> Technologies: Javascript, Node.js, Axios, Inquirer, Github Api, Puppeteer </p>
-                    </div>  
+              <div class="skill-set">
+              <h5>Node.js</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+            <div class="card-skill">
+              <img
+                src="./assets/images/bootstrap-4-the-most-popular-html-css-and-js-library.jpg"
+                alt="bootstrap logo"
+              />
+              <div class="skill-set">
+              <h5>Bootstrap</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+          <!-- </div> -->
+          <!-- <div class="row flex-row"> -->
+            <div class="card-skill">
+              <img src="./assets/images/React_logo_oval.png" alt="React logo" />
+              <div class="skill-set">
+              <h5>React</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+            
+            <div class="card-skill">
+              <img src="./assets/images/mysql_logo.png" alt="mySql logo" />
+              <div class="skill-set">
+              <h5>mySql</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+            <div class="card-skill">
+              <img src="./assets/images/mongodb.png" alt="Mongo logo" />
+              <div class="skill-set">
+              <h5>MongoDB</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+            <div class="card-skill">
+              <img src="./assets/images/GitHub-Mark.png" alt="Github logo" />
+              <div class="skill-set">
+              <h5>Github</h5>
+              <div class="blank_col"></div>
+            </div>
+            </div>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <!---- PORTFOLIO SECTION -->
+
+      <div id="portfolio" class="headline view-height-full flex-column">
+        <div class="section-title">
+          <h2>These are something that I built.</h2>
+          <!-- <h4>These are something that I built.</h4> -->
+        </div>
+        <div class="wrapper flex-column">
+          <div class="row flex-row">
+            <div class="project-description flex-column">
+              <h5 class="project-title">COVID - 19 TRACKER</h5>
+              
+              <div class="covid-image">
                 
+                <a
+                  href="https://yugmani.github.io/covid-19_Tracker/"
+                  target="_blank"
+                >
+                <img src="assets/images/Yug_covid_19.png" alt="covid-tracker" />
+                </a>
+              </div>
+             
             </div>
-           
-        </div>
-    
-    
-    <!---- CERTIFICATIONS SECTION -->
 
-    <div id="degrees" class="headline">
-        <h1> Courses and Trainings </h1>
-        <h4> These are some of the courses and trainings relevant to computer technologies and college/university degrees that I have completed successfully.</h4>
-        
-
-        <div class="container"> 
-                <div class="card_Grande">
-                    <h5>UCLA Extension: Coding Bootcamp</h5>
-                    <h6>Full Stack Web Development</h6>
-                    <p>September, 2019 - March, 2020</p>
-                    <div class="topic">
-                        <p class="fas fa-graduation-cap"> HTML5 & (S)CSS, Bootstrap </p>
-                        <p class="fas fa-graduation-cap"> JavaScript (ES6+), jQuery, Ajax </p>
-                        <p class="fas fa-graduation-cap"> Node.js, Express, React </p>
-                        <p class="fas fa-graduation-cap"> mySql, MongoDB,</p>
-                        <!-- <p class="fas fa-graduation-cap"> React</p> -->
-                    </div>
-                </div>
-                <div class="card_Grande">
-                    <h5 ><img src="assets/images/1ocHxLkr.png"> Udemy</h5>
-                    <div class="topic">
-                        <h6 class="fas fa-graduation-cap"> The Complete Web Developer Course 2.0</h6>
-                        <p>Plan to complete by April, 2020</p>
-                        <small class="fas fa-caret-right"> HTML5 & (S)CSS, Bootstrap, JavaScript, jQuery, Wordpress, PHP, Python, MySql </small>
-                        <h6 class="fas fa-graduation-cap"> The Complete Node.js Developer Course (3rd Ed.)</h6>
-                        <p>Plan to complete by March, 2020</p>
-                        <small class="fas fa-caret-right"> Node.js, MongoDB</small>
-                    </div>
-                </div>
-        </div>
-        <div class="container"> 
-            <div class="card_Grande">
-                <h5>National Computer Center</h5>
-                <h6>Diploma in Computer Technology </h6>
-                <p>Kathmandu, 1997</p> 
-                <div class="topic">
-                    <p class="fas fa-graduation-cap"> Basic Computer Operations, Windows, MS-Office </p>
-                    <p class="fas fa-graduation-cap"> QBasic, C Programming Language, dBase IV programming language  </p>
-                </div>
+            <div class="project-description flex-column">
+              <h5 class="project-title">WEATHER DASHBOARD</h5>
+              
+              <div class="weather-image">
+                <a
+                  href="https://yugmani.github.io/weatherDashboard/"
+                  target="blank"
+                >
+                <img src="assets/images/weather_dashboard.png" alt="covid-tracker" />
+              </a>
+                </a>
+              </div>
+             
             </div>
-            <div class="card_Grande">
-                <h5>College / University</h5>
+
+            <div class="project-description flex-column">
+              <h5 class="project-title">GOOGLE STORE LOCATOR</h5>
+              <div class="store-image">
+                <a
+                  href="https://yugmani.github.io/store_googlemap/"
+                  target="blank"
+                >
+                <img src="assets/images/google_store_locator.png" alt="covid-tracker" />
+              </a>
+                </a>
+              </div>
+             
+             </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="degrees" class="headline view-height-full flex-column">
+        <div class="section-title">
+          <h2>Trainings and Degrees</h2>
+          <!-- <h4>
+            Trainings Relevant to Computer
+            Technologies and other University/College Degrees
+          </h4> -->
+        </div>
+        <div class="wrapper flex-column">
+          <div class="row flex-row">
+            <div class="project-description flex-column">
+              <div class="project-title">
+                <h5>cleverprogrammer.com</h5>
                 
-                <div class="topic">
-                    <h6>Post Graduate Diploma in Education</h6>
-                    <p>Kathmandu University, Kathmandu, 2005</p>
-                    <small class="fas fa-graduation-cap"> Research Methodology, Classroom Management, Supervision/Administration </small>
-                    <h6>Bachelors Degree in Science (B.Sc.)</h6>
-                    <p>Amrit Science College, Kathmandu, 1997</p>
-                    <small class="fas fa-graduation-cap"> Mathematics, Physics, Chemistry </small>
-                </div>
+              </div>
+              <div class="project-image">
+                <a href="http://www.cleverprogrammer.com" target="_blank"> <img src="assets/images/pwj_logo.png"/></a>
+              </div>
+              <p><a href="#" target="_blank"
+              class="fas fa-graduation-cap" > Profit With Javascript</a></p>
             </div>
+            <div class="project-description flex-column">
+              <div class="project-title">
+                <h5>UCLA Extension</h5>
+                
+              </div>
+              <div class="project-image">
+                <a href="https://bootcamp.uclaextension.edu/coding/?utm_source=university-coursecatalog&utm_campaign=062018&utm_medium=coursecatalog&utm_content=UCLA-coursecatalog&utm_term=codingcoursecatalog/digital-technology/programming/course/full-stack-web-development-coding-boot-camp-com-sci-900001" target="_blank"><img src="assets/images/ucla_yug.jpg" /></a>
+              </div>
+              <p class="fas fa-graduation-cap"> Coding Bootcamp:Full Stack Web Development</p>
+            </div>
+            <!-- <div class="project-description flex-column">
+              <div class="project-title">
+                <h5>freeCodeCamp.org</h5>
+              
+              </div>
+              <div class="project-image">
+                
+                <a href="https://www.freecodecamp.org" target="_blank"><img src="assets/images/freecodecamp.jpeg"/></a>
+              </div>
+              <p class="fas fa-graduation-cap"> <a
+                href="https://www.freecodecamp.org/certification/yugmani/responsive-web-design"
+                target="_blank">Responsive Web Design Certification</a>  
+            </p>
+            </div> -->
+            
+            <div class="project-description flex-column">
+              <div class="project-title">
+                <h5>Kathmandu University</h5>
+                
+              </div>
+              <div class="project-image">
+                <a href="http://soe.kusoed.edu.np/" target="_blank"
+                ><img src="assets/images/ku_logo.png" /></a>
+              </div>
+              <p class="fas fa-graduation-cap"> Post Graduate Diploma in Education</p>
+            </div>
+  
+          </div>
         </div>
-    </div>
-
-
-    <!---- CONTACT ME SECTION -->
-
-    <div id="contact" class="headline">
-            <div class="container">
-
-                <h1>Contact Me</h1>
-
-                <form action="mail to:yugmani@yahoo.com" method="POST" enctype="text/plain">
-                    <label for="fullname">Name</label>
-                    <input type="text" name="fullname" placeholder="ex.John Smith" >
-                    <label for="mail">Email</label>
-                    <input type="email" name="mail" placeholder="ex. example@mail.com" >
-                    <label for="message">Message</label>
-                    <textarea name="message" rows="4" cols="80" placeholder="Type your message!"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+        </div>
         
-            </div>
-    </div>
-
-
-    <!---- FOOTER SECTION -->
-    <footer>
-        <div class="container">
-            <a href="https://www.linkedin.com/in/yugmani"><i class="fab fa-linkedin-in" ></i></a>
-            <a href="https://github.com/yugmani/"><i class="fab fa-github" ></i></a>
-            <a class="fab fa-twitter"></a>
-            <a class="fab fa-facebook-f"></a>
-
+    
+       
+      <!---- EXPERIENCE SECTION -->
+      <div id="worked" class="headline view-height-full flex-column">
+        <div class="section-title">
+          <h2>Here I've Worked</h2>
         </div>
+       
+        <div class="wrapper flex-column">
+          <div class="row flex-row">
+              <div class="designation">
+                <h4>Tax Specialist</h4>
+               
+              </div>
+              <div class="job-details">
+                <div class="hr-image">
+
+                </div>
+                <div class="job-description">
+                  <h5>H&R BLOCK, <span class="small-font">Los Angeles (2015 - 2018)</span></h5> 
+                  <h6 class="fas fa-caret-right"> Managed to increase the revenue for HR Block </h6>
+                  <h6 class="fas fa-caret-right"> Helped taxpayers to prepare tax returns using software based on their tax situation and ensured all the possible maximum tax benefits. </h6>
+                  
+                </div>
+                  
+              </div>
+          </div>
+            <div class="row flex-row">
+              <div class="designation">
+                <h4>Middle School Teacher</h4>
+                <!-- <p>2005 - 2012</p> -->
+              </div>
+              <div class="job-details">
+                <div class="kuhs-image">
+
+                </div>
+                <div class="job-description">
+                  <h5>Kathmandu University High School, <span class="small-font">Nepal (2005 - 2012) </span> </h5>
+                  <!-- <h5>British Gurkha Academy, <span class="small-font">Kathmandu, Nepal</span></h5> -->
+                  <!-- <h5>Aashiyaan Int'l School, <span class="small-font">Kathmandu, Nepal</span></h5> -->
+                  <!-- <h5>Martyrs' Memorial H.S. School, <span class="small-font">Kathmandu, Nepal</span></h5> -->
+                  <p class="fas fa-caret-right">
+                    Explored problem solving skills and strategies to teach Algebra, Arithetic, Geometry and Trigonometry
+                  </p>
+                  
+                  <p class="fas fa-caret-right">
+                    Developed lesson plans, maintained records and established
+                    communication with the school stakeholders.
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+            <!-- <div class="row flex-row">
+              <div class="designation flex-column">
+                <h4>Computer Instructor</h4>
+                <p>1996 - 2005</p>
+              </div>
+              
+              <div class="job-details flex-column">
+                <div class="bga-image">
+
+                </div>
+                <div class="job-description">
+                  
+                  <p class="fas fa-caret-right"> Instructed Basic computer operations in Windows, MS-Office (Word and Excel) and QBasic Programming Language</p>
+                  
+                </div>
+              </div>
+              
+            </div> -->
+          
+        </div>
+
+      </div>
+      
+      <!---- CONTACT ME SECTION -->
+
+      <div id="contact" class="headline view-height-full flex-column">
+         
+          <div class="section-title">
+            <h2>Contact Me</h2>
+            <div>
+              <p><a href="mailto:yugmani@yahoo.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> yugmani@yahoo.com</a></p>
+              <p><a href="tel:+1‪3108762173‬"><i class="fa fa-phone fa-flip-horizontal" aria-hidden="true"></i> +1 ‪(310) 876-2173‬</a></p>
+            </div>
+            <div class="social_medias">
+              <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/yugmani"
+               target="_blank" >
+              </a>
+              <a class="fab fa-github" href="https://github.com/yugmani/"
+              target="_blank"></a>
+              <!-- <a class="fab fa-twitter"></a> -->
+              <a class="fab fa-facebook-f" href="https://www.facebook.com/yug.gurung.961" target="_blank"></a>
+            </div>
+          </div>
+          <div class="wrapper flex-column">
+          <!-- action="mail to:yugmani@yahoo.com" -->
+          <form class="contact-form"
+            method="POST"
+            enctype="text/plain"
+          >
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" name="name" class="name" placeholder="ex. Maya" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error</small>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input class="email"
+              type="email"
+              name="email"
+              placeholder="ex. example@mail.com"
+            />
+            <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error</small>
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea class="message"
+              name="message"
+              rows="4"
+              cols="50"
+              placeholder="Type your message!"
+            ></textarea>
+            <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error</small>
+          </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+      <!---- FOOTER SECTION -->
+      <footer>
+        <div class="footer-info flex-row"> 
         <h6>Designed & Built by Yug Gurung</h6>
-                
-    </footer>
-        
-
-
-</body>
+        <address>
+          1115 South Fairfax Ave<br>
+          Los Angeles, CA 90019 <br>
+          USA
+          </address>
+        <div class="photo-credits">
+          <p><span>Photo by <a href="https://unsplash.com/@worldsbetweenlines?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Patrick Hendry</a> on <a href="https://unsplash.com/s/photos/dark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+          <p><span>Photo by <a href="https://unsplash.com/@jacobus?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jakub Sofranko</a> on <a href="https://unsplash.com/s/photos/black?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+          <p><span>Photo by <a href="https://unsplash.com/@chrishenryphoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chris Henry</a> on <a href="https://unsplash.com/s/photos/black?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>  
+          <p><span>Photo by <a href="https://unsplash.com/@akin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Akin Cakiner</a> on <a href="https://unsplash.com/s/photos/black?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+          <p><span>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/background-dark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p> 
+      </div> 
+</div> 
+</footer>
+    </div>
+  </div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js" -->
+  <script src="script.js"></script>
+  </body>
 </html>
